@@ -1,8 +1,12 @@
-basic.showIcon(IconNames.Square)
+let myImage = images.createImage(`
+    . . # . .
+    . # . # .
+    # # # # #
+    . . # . .
+    . # # # .
+    `)
+myImage.showImage(0, 400)
 basic.pause(500)
-basic.showIcon(IconNames.SmallSquare)
-basic.pause(500)
-basic.clearScreen()
 let temp_read = 0
 music.playMelody("C D E F G A B C5 ", 120)
 basic.forever(function () {
